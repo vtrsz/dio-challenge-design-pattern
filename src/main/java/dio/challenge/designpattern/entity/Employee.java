@@ -10,12 +10,12 @@ import java.math.BigDecimal;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-@Table(name = "worker")
+@Table(name = "employee")
 @Getter
 @Setter
 @EqualsAndHashCode
 @ToString
-public class Worker {
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
