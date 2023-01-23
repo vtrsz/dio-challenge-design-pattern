@@ -14,7 +14,7 @@ import lombok.ToString;
 @Setter
 @EqualsAndHashCode
 @ToString
-public class Recruiter extends Worker {
+public class Recruiter extends Employee {
     @Column(nullable = false)
     private String seniority;
 

@@ -9,7 +9,7 @@ import lombok.*;
 @Setter
 @EqualsAndHashCode
 @ToString
-public class Developer extends Worker {
+public class Developer extends Employee {
     @Column(nullable = false)
     private String seniority;
 
